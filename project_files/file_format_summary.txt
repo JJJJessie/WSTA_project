@@ -1,0 +1,3 @@
+documents.json
+[ {"docid": 0, "text": ["paragraph1", "paragraph2"]} ]
+
