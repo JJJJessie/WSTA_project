@@ -5,7 +5,7 @@ training.json
 devel.json
 [ {"question": "What blablabla?", "text": "blablabla", "answer_paragraph": 2, "docid": 0} ]
 
-testing.json
+testing.json (3618 questions)
 [ {"question": "What blablabla?", "docid": 410, "id": 0} ]
 
 先筛选段落，再筛选句子
