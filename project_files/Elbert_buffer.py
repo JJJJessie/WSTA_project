@@ -38,11 +38,11 @@ sents = []
 # sents.append("Elbert will submit the assignment tomorrow.")
 # sents.append("The dog is amazing.")
 # sents.append("The price is $244 billion")
-sents.append("The envent is cancelled due to raining.")
+# sents.append("The envent is cancelled due to raining.")
 # sents.append("Albert is studying in University of Melbourne.") 
 # sents.append("Is it true or false that an apple is red?") 
 # sents.append("Jackson is taken care of by Jessie.") 
-
+sents.append("There are one hundred people in the building.")
 
 
 for sent in sents:
