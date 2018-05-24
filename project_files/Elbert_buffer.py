@@ -12,12 +12,12 @@ from nltk.tag.stanford import StanfordPOSTagger
 
 # NERTagger
 
-ner_dir = '/Users/yifan/Desktop/stanford-ner-2018-02-27/'
+ner_dir = '/Users/yifan/Desktop/WSTA_project/stanford-ner-2018-02-27/'
 ner_jarfile = ner_dir + 'stanford-ner.jar'
 ner_modelfile = ner_dir + 'classifiers/english.all.3class.distsim.crf.ser.gz'
 ner_tagger = StanfordNERTagger(model_filename=ner_modelfile, path_to_jar=ner_jarfile)
 
-pos_dir = '/Users/yifan/Desktop/stanford-postagger-2018-02-27/'
+pos_dir = '/Users/yifan/Desktop/WSTA_project/stanford-postagger-2018-02-27/'
 pos_modelfile = pos_dir + 'models/english-bidirectional-distsim.tagger'
 pos_jarfile = pos_dir + 'stanford-postagger.jar'
 pos_tagger = StanfordPOSTagger(model_filename=pos_modelfile, path_to_jar=pos_jarfile)
@@ -42,7 +42,7 @@ sents = []
 # sents.append("Albert is studying in University of Melbourne.") 
 # sents.append("Is it true or false that an apple is red?") 
 # sents.append("Jackson is taken care of by Jessie.") 
-sents.append("There are one hundred people in the building.")
+sents.append("%")
 
 
 for sent in sents:
