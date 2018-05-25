@@ -23,11 +23,11 @@ pos_jarfile = pos_dir + 'stanford-postagger.jar'
 pos_tagger = StanfordPOSTagger(model_filename=pos_modelfile, path_to_jar=pos_jarfile)
 
 sents = []
-sents.append("Rami Eid is studying at Stony Brook University in NY")
-sents.append("Elbert lives in Melbourne.")
-sents.append("Banana is $6 per kilo this Monday in Sydney.")
-sents.append("Elbert lives 100 kilometers away from Melbourne.")
-sents.append("Elbert is enrolled in University of Melbourne .")
+# sents.append("Rami Eid is studying at Stony Brook University in NY")
+# sents.append("Elbert lives in Melbourne.")
+# sents.append("Banana is $6 per kilo this Monday in Sydney.")
+# sents.append("Elbert lives 100 kilometers away from Melbourne.")
+# sents.append("Elbert is enrolled in University of Melbourne .")
 # sents.append("Elbert in Melbourne.")
 # sents.append("Elbert's address is Unit 1004 50 Albert Road South Melbourne 3205.")
 # sents.append("The price of a bottle of water is $1")
@@ -42,7 +42,7 @@ sents.append("Elbert is enrolled in University of Melbourne .")
 # sents.append("Albert is studying in University of Melbourne.") 
 # sents.append("Is it true or false that an apple is red?") 
 # sents.append("Jackson is taken care of by Jessie.") 
-sents.append("%")
+sents.append("chinese")
 # 
 
 for sent in sents:
