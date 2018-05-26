@@ -42,7 +42,7 @@ sents = []
 # sents.append("Albert is studying in University of Melbourne.") 
 # sents.append("Is it true or false that an apple is red?") 
 # sents.append("Jackson is taken care of by Jessie.") 
-sents.append("university of melbourne")
+sents.append("\"")
 # 
 
 for sent in sents:
