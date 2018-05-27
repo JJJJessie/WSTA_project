@@ -34,6 +34,6 @@ f = fileinput.input(files=('/Users/yifan/Desktop/WSTA_project/project_files/name
 
 for line in f:
     if '\"' in line:
-        print line
+        line.replace(text_to_search, replacement_text)
 
 f.close()
